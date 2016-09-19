@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+  <div data-role="header">
+  <h1>ESTUDIO SOCOECONOMICO</h1>
+  </div>
+
+<div data-role="main" class="ui-content">
+<form method="get" action="">
+<div class="ui-field-contain">
+    <label for="num">Numero de integrantes:</label>
+    <input type="number" name="number" id="num" value="" placeholder="N° de habitantes">
+    </div>
+
+  <div class="ui-field-contain">
+    <label for="name">Nombre:</label>
+    <input type="text" name="text" id="name" value="" placeholder="¿Cual es tu nombre?">
+     <label for="app">Apellido Paterno:</label>
+    <input type="text" name="text" id="app" value="" placeholder="¿Cual es tu apellido paterno?">
+     <label for="apm">Apellido materno:</label>
+    <input type="text" name="text" id="apm" value="" placeholder="¿Cual es tu Apellido materno?">
+    <label for="edad">Edad:</label>
+    <input type="text" name="text" id="edad" value="" placeholder="¿Cual es tu Edad?">
+    </div>
+
+  <div class="ui-field-contain">
+    <label for="date">Fecha:</label>
+    <input type="date" name="date" id="date" value="">
+  </div>
+  <div class="ui-field-contain">
+    <label for="sexo">sexo</label>
+    <select id="sexo" name="sexo">
+      <option value="femenino">femenino</option>
+      <option value="masculino">masculino</option>
+      </select>
+      </div>
+  
+  <div class="ui-field-contain">
+    <label for="estadocivil">Estado Civil</label>
+    <select id="estadocivil" name="estadocivil">
+      <option value="solter@">solter@</option>
+      <option value="casad@">casad@</option>
+      <option value="viud@">viud@</option>
+      <option value="divorciad@">divorciad@</option>
+      <option value="unionlibre">unionlibre</option>
+    </select>
+  </div>
+    
+  <div class="ui-field-contain">
+  <label for="switch">Flip Switch:</label>
+    <input type="checkbox" data-role="flipswitch" name="switch" id="switch">
+  </div>
+
+   <div class="ui-field-contain">
+   <legend>Servicios con los que cuenta:</legend>
+   <label for="drenaje">Drenaje</label>
+   <input type="checkbox" name="drenaje" id="drenaje"/>
+   <label for="Luz">Luz</label>
+   <input type="checkbox" name="Luz" id="Luz"/>
+   <label for="Agua">Agua</label>
+   <input type="checkbox" name="Agua" id="Agua"/>
+   </div>
+    <label for="Television">Television</label>
+   <input type="checkbox" name="Television" id="Television"/>
+    <label for="Internet">Internet</label>
+   <input type="checkbox" name="Internet" id="Internet"/>
+   <label for="Telefono">Telefono</label>
+   <input type="checkbox" name="Telefono" id="Telefono"/>
+   
+   <input type="reset" value="Borrar formulario" name="btnborrar"></input>
+
+</form>
+</div>
+</div>
+
+</body>
+</html>
